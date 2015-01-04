@@ -123,6 +123,14 @@
                 <onclick>Control.SetFocus(50)</onclick>
                 <onclick>Skin.SetString(showRecentVideoItems,false)</onclick>
             </item>
+            <item>
+                <visible></visible>
+                <label>1214</label>
+                <label2></label2>
+                <onclick>activateWindow(Videos,files,return)</onclick>
+                <onclick>control.setfocus(50)</onclick>
+                <onclick>Skin.SetString(showRecentVideoItems,false)</onclick>
+            </item>
             <!--custom video addons-->
             <item>
                 <visible>!isempty(Skin.String(customVideoAddon1))</visible>
