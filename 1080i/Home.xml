@@ -131,6 +131,15 @@
                         <onclick>Skin.SetString(showRecentVideoItems,true)</onclick>
                     </item>
                     <item>
+                        <visible>!Skin.HasSetting(hidePvr) + System.GetBool(pvrmanager.enabled)</visible>
+                        <label>31060</label>
+                        <label2></label2>
+                        <thumb>-</thumb>
+                        <onclick>ActivateWindow(TVChannels)</onclick>
+                        <onclick>Control.SetFocus(50)</onclick>
+                        <onclick>Skin.SetString(showRecentVideoItems,false)</onclick>
+                    </item>
+                    <item>
                         <visible>!Skin.HasSetting(hideMusic)</visible>
                         <label>31001</label>
                         <label2></label2>

@@ -223,6 +223,14 @@
                     <onclick>Skin.ToggleSetting(hideVideo)</onclick>
                     <selected>Skin.HasSetting(hideVideo)</selected>
                 </control>
+                <control type="radiobutton" id="18">
+                    <visible>Container(8000).Hasfocus(2)</visible>
+                    <description>Hide PVR</description>
+                    <width>16-col</width>
+                    <label>33168</label>
+                    <onclick>Skin.ToggleSetting(hidePvr)</onclick>
+                    <selected>Skin.HasSetting(hidePvr)</selected>
+                </control>
                 <control type="radiobutton" id="9">
                     <visible>Container(8000).Hasfocus(2)</visible>
                     <description>Hide Music</description>

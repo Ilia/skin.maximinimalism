@@ -630,3 +630,7 @@ msgstr ""
 msgctxt "#31171"
 msgid "Select me to update library"
 msgstr ""
+
+msgctxt "#33168"
+msgid "Home: Hide PVR"
+msgstr ""
