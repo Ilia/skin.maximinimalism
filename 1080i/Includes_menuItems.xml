@@ -307,6 +307,14 @@
                 <onclick>Control.SetFocus(51)</onclick>
                 <onclick>Skin.SetString(showRecentMusicItems,false)</onclick>
             </item>
+            <item>
+                <visible></visible>
+                <label>1214</label>
+                <label2></label2>
+                <onclick>activateWindow(MusicFiles,return)</onclick>
+                <onclick>Control.SetFocus(51)</onclick>
+                <onclick>Skin.SetString(showRecentMusicItems,false)</onclick>
+            </item>
             <!--custom music addons-->
             <item>
                 <visible>!isempty(Skin.String(customMusicAddon1))</visible>
