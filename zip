@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+DIR=$(basename $(pwd))
+VER=$(cat addon.xml | grep 'skin.maximinimalism" version' | sed -e "s/.\+version=\"\([[:digit:]]\+\.[[:digit:]]\+\.[[:digit:]]\+\)\".\+/\1/")
+
+rm ./skin.maximinimalism-${VER}.zip
+
+# cd ..
+# zip -r ${DIR}/skin.maximinimalism-${VER}.zip ${DIR} -x ${DIR}/zip "*.git/*" "*.DS_Store" ${DIR}/skin.maximinimalism*.zip
+
+zip -r ./skin.maximinimalism-${VER}.zip . -x ./zip "*.git/*" "*.DS_Store" ./skin.maximinimalism*.zip
