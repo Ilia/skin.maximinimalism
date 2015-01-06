@@ -328,7 +328,7 @@
                         <texturefocus>colors/black.png</texturefocus>
                         <texturenofocus>colors/unselected.png</texturenofocus>
                         <textoffsetx>12</textoffsetx>
-                        <onclick>control.setfocus(600)</onclick>
+                        <onclick>Control.SetFocus(600)</onclick>
                     </control>
                     <control type="button" id="2001">
                         <description>Year</description>
@@ -341,7 +341,7 @@
                         <texturefocus>colors/black.png</texturefocus>
                         <texturenofocus>colors/unselected.png</texturenofocus>
                         <textoffsetx>12</textoffsetx>
-                        <onclick>control.setfocus(700)</onclick>
+                        <onclick>Control.SetFocus(700)</onclick>
                     </control>
                     <control type="button" id="2002">
                         <description>Publisher</description>
@@ -354,7 +354,7 @@
                         <texturefocus>colors/black.png</texturefocus>
                         <texturenofocus>colors/unselected.png</texturenofocus>
                         <textoffsetx>12</textoffsetx>
-                        <onclick>control.setfocus(800)</onclick>
+                        <onclick>Control.SetFocus(800)</onclick>
                     </control>
                     <control type="button" id="2003">
                         <description>Character</description>
@@ -367,7 +367,7 @@
                         <texturefocus>colors/black.png</texturefocus>
                         <texturenofocus>colors/unselected.png</texturenofocus>
                         <textoffsetx>12</textoffsetx>
-                        <onclick>control.setfocus(900)</onclick>
+                        <onclick>Control.SetFocus(900)</onclick>
                     </control>
                     <control type="radiobutton" id="1000">
                         <description>Favourites filter</description>

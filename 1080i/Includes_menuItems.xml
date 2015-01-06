@@ -104,7 +104,7 @@
                 <label>342</label>
                 <label2/>
                 <onclick>ActivateWindow(videos,movietitles,return)</onclick>
-                <onclick>control.setfocus(50)</onclick>
+                <onclick>Control.SetFocus(50)</onclick>
                 <onclick>Skin.SetString(showRecentVideoItems,false)</onclick>
             </item>
             <item>
@@ -112,7 +112,7 @@
                 <label>20343</label>
                 <label2/>
                 <onclick>activateWindow(Videos,tvshowtitles,return)</onclick>
-                <onclick>control.setfocus(50)</onclick>
+                <onclick>Control.SetFocus(50)</onclick>
                 <onclick>Skin.SetString(showRecentVideoItems,false)</onclick>
             </item>
             <item>
@@ -120,7 +120,7 @@
                 <label>136</label>
                 <label2/>
                 <onclick>activateWindow(Videos,playlists,return)</onclick>
-                <onclick>control.setfocus(50)</onclick>
+                <onclick>Control.SetFocus(50)</onclick>
                 <onclick>Skin.SetString(showRecentVideoItems,false)</onclick>
             </item>
             <!--custom video addons-->
@@ -288,7 +288,7 @@
                 <label2/>
                 <onclick>Skin.SetString(keepMusicMenuActive,true)</onclick>
                 <onclick>activateWindow(Videolibrary,videodb://musicvideos/titles/)</onclick>
-                <onclick>control.setfocus(50)</onclick>
+                <onclick>Control.SetFocus(50)</onclick>
                 <onclick>Skin.SetString(showRecentVideoItems,false)</onclick>
             </item>
             <item>

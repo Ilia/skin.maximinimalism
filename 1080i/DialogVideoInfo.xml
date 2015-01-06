@@ -256,7 +256,7 @@
                         <label2></label2>
                         <thumb>-</thumb>
                         <onclick>Skin.SetString(showcast,true)</onclick>
-                        <onclick>control.setfocus(50)</onclick>
+                        <onclick>Control.SetFocus(50)</onclick>
                     </item>
                     <item>
                         <label>20410</label>

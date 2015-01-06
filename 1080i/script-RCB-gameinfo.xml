@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <window>
-    <onload>control.setfocus(3000)</onload>
+    <onload>Control.SetFocus(3000)</onload>
     <allowoverlay>no</allowoverlay>
     <coordinates>
         <system>1</system>

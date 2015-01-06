@@ -206,7 +206,7 @@
                     <onclick>Control.Move(5210,1)</onclick>
                     <onleft>7000</onleft>
                     <onright>5212</onright>
-                    <ondown>control.setfocus(7010,1)</ondown>
+                    <ondown>Control.SetFocus(7010,1)</ondown>
                 </control>
                 <control type="button" id="5212">
                     <description>Menu Item Prev Button</description>
@@ -220,7 +220,7 @@
                     <onclick>Control.Move(5210,-1)</onclick>
                     <onleft>5211</onleft>
                     <onright>8542</onright>
-                    <ondown>control.setfocus(7010,1)</ondown>
+                    <ondown>Control.SetFocus(7010,1)</ondown>
                 </control>
                 <control type="group" id="7010">
                     <!-- Game Import -->

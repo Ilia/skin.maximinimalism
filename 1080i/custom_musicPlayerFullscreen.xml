@@ -211,8 +211,8 @@
                         <height>1-col</height>
                         <itemgap>0</itemgap>
                         <orientation>horizontal</orientation>
-                        <onright>control.setfocus(8002,0)</onright>
-                        <onleft>control.setfocus(8002,4)</onleft>
+                        <onright>Control.SetFocus(8002,0)</onright>
+                        <onleft>Control.SetFocus(8002,4)</onleft>
                         <onup>9876</onup>
                         <ondown>9876</ondown>
                         <itemlayout width="1-col" height="1-col">
@@ -340,8 +340,8 @@
                         <height>1-col</height>
                         <itemgap>0</itemgap>
                         <orientation>horizontal</orientation>
-                        <onleft>control.setfocus(8000,5)</onleft>
-                        <onright>control.setfocus(8000,0)</onright>
+                        <onleft>Control.SetFocus(8000,5)</onleft>
+                        <onright>Control.SetFocus(8000,0)</onright>
                         <onup>9876</onup>
                         <ondown>9876</ondown>
                         <itemlayout width="3-col" height="1-col">
@@ -460,7 +460,7 @@
             <ondown>8000</ondown>
             <onleft>decreaseRating</onleft>
             <onright>increaseRating</onright>
-            <onclick>control.setfocus(8000)</onclick>
+            <onclick>Control.SetFocus(8000)</onclick>
         </control>
         <!--debugging-->
         <include>DebugGrid</include>
