@@ -127,8 +127,9 @@
                         <label>31000</label>
                         <label2></label2>
                         <thumb>-</thumb>
-                        <onclick>activateWindow(Videos,videodb://)</onclick>
-                        <onclick>Skin.SetString(showRecentVideoItems,true)</onclick>
+                        <onclick>ActivateWindow(videos,movietitles,return)</onclick>
+                        <onclick>Control.SetFocus(50)</onclick>
+                        <onclick>Skin.SetString(showRecentVideoItems,false)</onclick>
                     </item>
                     <item>
                         <visible>!Skin.HasSetting(hidePvr) + System.GetBool(pvrmanager.enabled)</visible>
